@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.images{
+  width: 200px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +26,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.outlook{
+ 
+  
+  position: absolute;
+  left: 250px;
+  right: 250px;
+  display: inline-block;
 }
 
 .App-link {
